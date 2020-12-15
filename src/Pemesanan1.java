@@ -49,6 +49,8 @@ public class Pemesanan1 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setPreferredSize(new java.awt.Dimension(700, 500));
+
         lbljudul.setFont(new java.awt.Font("The Delicate DEMO", 1, 25)); // NOI18N
         lbljudul.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbljudul.setText("HOME");
@@ -127,6 +129,8 @@ public class Pemesanan1 extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        pnllogout.setPreferredSize(new java.awt.Dimension(200, 78));
+
         jLabel5.setFont(new java.awt.Font("Monotype Corsiva", 0, 20)); // NOI18N
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ICON/logout.png"))); // NOI18N
@@ -145,7 +149,7 @@ public class Pemesanan1 extends javax.swing.JFrame {
             pnllogoutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnllogoutLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 68, Short.MAX_VALUE)
+                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 56, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -198,11 +202,11 @@ public class Pemesanan1 extends javax.swing.JFrame {
         jPanel8.setLayout(jPanel8Layout);
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 574, Short.MAX_VALUE)
+            .addGap(0, 454, Short.MAX_VALUE)
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 467, Short.MAX_VALUE)
+            .addGap(0, 346, Short.MAX_VALUE)
         );
 
         jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
